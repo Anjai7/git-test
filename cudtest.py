@@ -1,6 +1,7 @@
 import torch
 import time
 
+
 # Check if CUDA is available
 if torch.cuda.is_available():
     device = torch.device("cuda")
